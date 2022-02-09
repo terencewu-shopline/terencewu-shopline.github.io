@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="https://admin.sw90.shoplinestg.com/js/admin-app-extension-sdk.js"></script>
+</head>
+<body>
+app 1 connector-url
+
+<script>
+ShoplineAdminAppExtension.initialize({
+    'menu.category.menu-links': function() {
+      return {
+        name_translations: {en: 'App1', zh_TW: '應用1'},
+        icon: 'https://dummyimage.com/16x16/105c24/ffffff.png&text=D',
+        url: 'http://app.3rd-party.local:3001/app-developer/app1.html'
+      }
+    },
+})
+</script>
+</body>
+</html>
